@@ -1,4 +1,3 @@
-var linki;
 document.getElementById('submit').onclick = function() {
     callInject(decodeURI(document.getElementById('imgLink').value))
 
