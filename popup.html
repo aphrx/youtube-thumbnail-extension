@@ -1,9 +1,14 @@
 <html>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"></style>
+    <link rel="stylesheet" href="./css/style.css"></style>
     <body>
         <form id="addImg">
-            <p>Enter Image Url</p>
-            <input type="text" id="imgLink" />
-            <input type="button" id="submit" value="Inject" />
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" id="imgLink" placeholder="Enter URL here" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-primary" id="submit" type="button">Inject</button>
+                </div>
+              </div>
         </form>
         <script src="popup.js"></script>
     </body>
